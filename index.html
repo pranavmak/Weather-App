@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Weather-App</title>
+    </head>
+    <body>
+        <div id="serachContainer">
+            <input class="searchControl" type="text" placeholder="City name or ZipCode" id="searchInput">
+            <button class="searchControl" id="serachBtn">Search</button>
+        </div>
+        <div id="weatherContainer">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="wetherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionContainer"></div>
+                    <div><img id="documentImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="bottomDetails"></div>
+                <div id="humidity" class="bottomDetails"></div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
